@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/assets/logo.png">
+    <title> Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#"> Home </a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"> Search </a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="assets/library_icon.png">
+                        <a href="#"> Your Library </a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1"> Create your first playlist </p>
+                        <p class="box-p2"> It's easy, we'll help you </p>
+                        <button class="badge"> Create Playlist </button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1"> Let's find some podcasts to follow </p>
+                        <p class="box-p2"> We'll keep you updated on new episodes </p>
+                        <button class="badge"> Browse podcasts </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="/assets/backward_icon.png">
+                    <img src="/assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide"> Explore Premium </button>
+                    <button class="badge nav-item dark"> <i class="fa-regular fa-circle-down"></i> Install App </button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <h2> Recently played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/friends_mix.jpg" class="card-img">
+                    <div class="card-text">
+                        <p class="card-title"> Friends Mix </p>
+                        <p class="card-info"> Discover music trending among your Blend friends, picked for you. Updates daily. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/liked-songs-300.jpg" class="card-img">
+                    <div class="card-text">
+                        <p class="card-title"> Liked Songs </p>
+                        <p class="card-info"> Your favorite tracks, all in one playlist. </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2> Uniquely yours</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/morning_daylist.jpg" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-info"> Your day in a playlist </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/On_Repeat.jpg" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-info"> Songs you love right now </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/daily-drive.jpg" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-info"> A mix of news and music made for you </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/Repeat_Rewind.jpg" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-info"> Your past favorites </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2> Recommended for today</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/Short_n'_Sweet_card.jpeg" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-title"> Short n' Sweet (Deluxe)</p>
+                        <p class="card-info"> Sabrina Carpenter </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/4ONLY_card.jpeg" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-title"> 4 ONLY</p>
+                        <p class="card-info"> LeeHi </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2> Today's biggest hits</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/TTH_card.png" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-title"> Today's Top Hits</p>
+                        <p class="card-info"> The hottest 50. Cover: Kendrick Lamar</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/KPOP_ON!_card.png" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-title"> K-Pop ON! (온)</p>
+                        <p class="card-info"> Turn on the movement with the latest and greatest in K-Pop! Cover: LISA </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/Mega_Hit_Mix_card.png" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-title"> Mega Hit Mix</p>
+                        <p class="card-info"> A mega mix of 75 favorites from the last few years!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/Latin_Hit_card.png" class="card-img">
+                    <div class="card-text"> 
+                        <p class="card-title"> Latin Hit Mix</p>
+                        <p class="card-info"> The latest and greatest! Revive los</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="/assets/Ditto.jpeg" class="album-img">
+                <div class="album-text">
+                    <p class="album-p" style="opacity: 1;font-weight: 600;"> Ditto </p>
+                    <p class="album-p"> NewJeans</p>
+                </div>
+                <i class="fa-regular fa-heart album-i"></i>
+                <i class="fa-solid fa-expand album-i"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="/assets/player_icon1.png" class="player-control-icon">
+                    <img src="/assets/player_icon2.png" class="player-control-icon">
+                    <img src="/assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="/assets/player_icon4.png" class="player-control-icon">
+                    <img src="/assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time"> 00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="end-time"> 3:05 </span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-regular fa-file-audio"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" step="10" class="progress-bar">
+            </div>
+        </div>
+    </div>
+  </body>
+
+
+
+
+</html>
