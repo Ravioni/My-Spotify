@@ -7,7 +7,7 @@ function updateDaylist() {
   
     if (hour >= 4 && hour < 7) {
         // Early Morning (4 AM - 6:59 AM)
-        imgURL = '/assets/early_morning_daylist.jpg';
+        imgURL = '/assets/early_morning_daylist.png';
       } else if (hour >= 7 && hour < 12) {
         // Morning (7 AM - 11:59 AM)
         imgURL = '/assets/morning_daylist.jpg';
@@ -22,7 +22,7 @@ function updateDaylist() {
         imgURL = '/assets/night_daylist.jpg';
       } else {
         // Late-Night (11 PM - 3:59 AM)
-        imgURL = '/assets/late_night_daylist.jpg';
+        imgURL = '/assets/late_night_daylist.png';
       }
 
     // update src of img tag
