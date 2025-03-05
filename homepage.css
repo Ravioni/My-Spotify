@@ -9,7 +9,7 @@ body {
 .main {
     display: flex;
     height: 100vh;
-    background-color: black; /* Ensure the background is black */
+    background-color: black;
 }
 
 .sidebar {
@@ -17,7 +17,7 @@ body {
     width: 350px;
     border-radius: 1rem;
     margin-right: 0.5rem;
-    padding: 0.5rem; /* Add padding here */
+    padding: 0.5rem;
 }
 
 .main-content {
@@ -25,6 +25,7 @@ body {
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    margin-top: 0.75rem;
     padding: 0 1.5rem 0 1.5rem;
 }
 
@@ -33,8 +34,8 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 70px;
-    z-index: 10; /* Add this line */
+    height: 100px;
+    z-index: 10;
 }
 
 a {
@@ -49,6 +50,8 @@ a {
     flex-direction: column;
     justify-content: center;
     height: 100px;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
     padding: 0.5rem 0.75rem;
 }
 
@@ -78,8 +81,9 @@ a {
     background-color: #121212;
     border-radius: 1rem;
     height: 100%;
-    margin: 0.5rem;
-    padding: 0.5rem 0.75rem;
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .options {
@@ -91,6 +95,11 @@ a {
 .lib-option img {
     height: 1.25rem;
     width: 1.25rem;
+}
+
+.lib-img {
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .icons {
@@ -107,26 +116,6 @@ a {
 
 .icons i:hover{
     opacity: 1;
-}
-
-.box {
-    background-color: #232323;
-    height: 9rem;
-    border-radius: 0.75rem;
-    margin: 0.75rem 0 1.75rem 0;
-    padding: 0.75rem 1rem;
-}
-
-.box-p1 {
-    font-size: 1rem;
-    font-weight: 500;
-    background-color: #232323;
-}
-
-.box-p2 {
-    font-size: 0.85rem;
-    opacity: 0.9;
-    background-color: #232323;
 }
 
 .badge {
